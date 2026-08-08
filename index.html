@@ -21,16 +21,31 @@
             <div class="nav-logo">
                 <span>GE</span>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#about">عنّي</a></li>
-                <li><a href="#experience">الخبرات</a></li>
-                <li><a href="#projects">المشاريع</a></li>
-                <li><a href="#skills">المهارات</a></li>
-                <li><a href="#certificates">الشهادات</a></li>
-                <li><a href="#contact">تواصل</a></li>
+            
+            <!-- ====== أزرار التحكم ====== -->
+            <div class="nav-controls">
+                <!-- زر الوضع الداكن/الفاتح -->
+                <button class="theme-toggle" id="themeToggle" title="تغيير المظهر">
+                    <i class="fas fa-moon"></i>
+                </button>
+                
+                <!-- زر الترجمة -->
+                <button class="lang-toggle" id="langToggle" title="تغيير اللغة">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text" id="langText">EN</span>
+                </button>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-translate="home">الرئيسية</a></li>
+                <li><a href="#about" data-translate="about">عنّي</a></li>
+                <li><a href="#experience" data-translate="experience">الخبرات</a></li>
+                <li><a href="#projects" data-translate="projects">المشاريع</a></li>
+                <li><a href="#skills" data-translate="skills">المهارات</a></li>
+                <li><a href="#certificates" data-translate="certificates">الشهادات</a></li>
+                <li><a href="#contact" data-translate="contact">تواصل</a></li>
             </ul>
-            <div class="nav-toggle">
+            <div class="nav-toggle" id="navToggle">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -51,15 +66,15 @@
 
             <!-- الاسم والعنوان -->
             <h1>Gannatallah Emad</h1>
-            <p class="title">📊 Data Analyst</p>
+            <p class="title" data-translate="job_title">📊 Data Analyst</p>
             
             <div class="location">
                 <i class="fas fa-map-marker-alt"></i>
-                <span>Cairo, Egypt</span>
+                <span data-translate="location">Cairo, Egypt</span>
             </div>
 
             <!-- نبذة مختصرة -->
-            <p class="bio">
+            <p class="bio" data-translate="bio">
                 Results-driven Data Analyst with a Bachelor's in Commerce and Accounting, 
                 skilled in <strong>Python, SQL, Power BI</strong>, and <strong>Advanced Excel</strong>. 
                 Passionate about transforming raw data into actionable insights that drive 
@@ -69,10 +84,10 @@
             <!-- أزرار السيرة -->
             <div class="cv-buttons">
                 <a href="cv.pdf" target="_blank" class="btn primary">
-                    <i class="fas fa-eye"></i> عرض السيرة
+                    <i class="fas fa-eye"></i> <span data-translate="view_cv">عرض السيرة</span>
                 </a>
                 <a href="cv.pdf" download class="btn secondary">
-                    <i class="fas fa-download"></i> تحميل السيرة
+                    <i class="fas fa-download"></i> <span data-translate="download_cv">تحميل السيرة</span>
                 </a>
             </div>
 
@@ -97,15 +112,15 @@
     <!-- ====== قسم عنّي (About) ====== -->
     <section id="about" class="about">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="section-title">✨ عنّي</h2>
+            <h2 class="section-title" data-translate="about_title">✨ عنّي</h2>
             <div class="about-grid">
                 <div class="about-text">
-                    <p>
+                    <p data-translate="about_text1">
                         أنا <strong>Gannatallah Emad</strong>، محللة بيانات بشغف كبير لتحويل البيانات 
                         الخام إلى رؤى قيمة تدعم اتخاذ القرارات. حاصلة على بكالوريوس التجارة - محاسبة 
                         ومراجعة من جامعة عين شمس بتقدير امتياز مع مرتبة الشرف (GPA: 3.75/4.0).
                     </p>
-                    <p>
+                    <p data-translate="about_text2">
                         لدي خبرة في تحليل البيانات، التصور البياني، وتطوير لوحات المعلومات التفاعلية 
                         باستخدام <strong>Power BI</strong>، بالإضافة إلى مهارات قوية في <strong>Python</strong> 
                         و <strong>SQL</strong> لتنظيف وتحليل البيانات.
@@ -120,7 +135,7 @@
                 <div class="about-stats">
                     <div class="stat-box">
                         <span class="stat-number">15+</span>
-                        <span class="stat-label">مشروع</span>
+                        <span class="stat-label" data-translate="projects_label">مشروع</span>
                     </div>
                     <div class="stat-box">
                         <span class="stat-number">3.75</span>
@@ -128,7 +143,7 @@
                     </div>
                     <div class="stat-box">
                         <span class="stat-number">6</span>
-                        <span class="stat-label">شهادات</span>
+                        <span class="stat-label" data-translate="certificates_label">شهادات</span>
                     </div>
                 </div>
             </div>
@@ -138,7 +153,7 @@
     <!-- ====== قسم الخبرات (Experience) ====== -->
     <section id="experience" class="experience">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="section-title">💼 الخبرات العملية</h2>
+            <h2 class="section-title" data-translate="experience_title">💼 الخبرات العملية</h2>
             <div class="timeline">
                 
                 <!-- خبرة 1 -->
@@ -147,13 +162,13 @@
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>Junior Data Analyst</h3>
-                        <h4>DIGILIANs - MCIT & Egyptian Military Academy</h4>
-                        <span class="date">2024 - حتى الآن</span>
+                        <h3 data-translate="exp1_title">Junior Data Analyst</h3>
+                        <h4 data-translate="exp1_company">DIGILIANs - MCIT & Egyptian Military Academy</h4>
+                        <span class="date" data-translate="exp1_date">2024 - حتى الآن</span>
                         <ul>
-                            <li>أتمتة عمليات تنظيف وتحويل البيانات لـ 10+ مجموعات بيانات باستخدام Python</li>
-                            <li>بناء لوحات معلومات تفاعلية بـ Power BI لتتبع 15+ مؤشر أداء</li>
-                            <li>تطوير استعلامات SQL لاستخراج وتحليل البيانات</li>
+                            <li data-translate="exp1_li1">أتمتة عمليات تنظيف وتحويل البيانات لـ 10+ مجموعات بيانات باستخدام Python</li>
+                            <li data-translate="exp1_li2">بناء لوحات معلومات تفاعلية بـ Power BI لتتبع 15+ مؤشر أداء</li>
+                            <li data-translate="exp1_li3">تطوير استعلامات SQL لاستخراج وتحليل البيانات</li>
                         </ul>
                     </div>
                 </div>
@@ -164,12 +179,12 @@
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>Mint by EGBANK</h3>
-                        <h4>Fintech Training Program</h4>
-                        <span class="date">أغسطس 2024 - سبتمبر 2024</span>
+                        <h3 data-translate="exp2_title">Mint by EGBANK</h3>
+                        <h4 data-translate="exp2_company">Fintech Training Program</h4>
+                        <span class="date" data-translate="exp2_date">أغسطس 2024 - سبتمبر 2024</span>
                         <ul>
-                            <li>المشاركة في ورش عمل حول الاستقلال المالي واستراتيجية البنوك الرقمية</li>
-                            <li>تطبيق أطر تحليل البيانات لحل دراسات حالة متعددة المتغيرات</li>
+                            <li data-translate="exp2_li1">المشاركة في ورش عمل حول الاستقلال المالي واستراتيجية البنوك الرقمية</li>
+                            <li data-translate="exp2_li2">تطبيق أطر تحليل البيانات لحل دراسات حالة متعددة المتغيرات</li>
                         </ul>
                     </div>
                 </div>
@@ -180,12 +195,12 @@
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>CIB - Commercial International Bank</h3>
-                        <h4>Summer Internship</h4>
-                        <span class="date">يوليو 2024 - أغسطس 2024</span>
+                        <h3 data-translate="exp3_title">CIB - Commercial International Bank</h3>
+                        <h4 data-translate="exp3_company">Summer Internship</h4>
+                        <span class="date" data-translate="exp3_date">يوليو 2024 - أغسطس 2024</span>
                         <ul>
-                            <li>أتمتة تقارير العمل اليومية باستخدام VBA Macros في Excel</li>
-                            <li>تحليل بيانات العملاء لدعم تقارير تقييم المخاطر</li>
+                            <li data-translate="exp3_li1">أتمتة تقارير العمل اليومية باستخدام VBA Macros في Excel</li>
+                            <li data-translate="exp3_li2">تحليل بيانات العملاء لدعم تقارير تقييم المخاطر</li>
                         </ul>
                     </div>
                 </div>
@@ -197,7 +212,7 @@
     <!-- ====== قسم المشاريع (Projects) ====== -->
     <section id="projects" class="projects">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="section-title">🚀 المشاريع</h2>
+            <h2 class="section-title" data-translate="projects_title">🚀 المشاريع</h2>
             <div class="projects-grid">
 
                 <!-- مشروع 1 -->
@@ -209,9 +224,9 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>🧠 Brain Tumor MRI Classification</h3>
-                        <p>تطوير نموذج Deep Learning لتصنيف صور MRI إلى 4 فئات من الأورام باستخدام MobileNetV2 Transfer Learning، وحققنا دقة 93%.</p>
-                        <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-translate="project1_title">🧠 Brain Tumor MRI Classification</h3>
+                        <p data-translate="project1_desc">تطوير نموذج Deep Learning لتصنيف صور MRI إلى 4 فئات من الأورام باستخدام MobileNetV2 Transfer Learning، وحققنا دقة 93%.</p>
+                        <a href="#" class="project-link"><span data-translate="view_project">عرض المشروع</span> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -224,9 +239,9 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>🤟 SignSpeak - Sign Language Recognition</h3>
-                        <p>تطوير نظام للتعرف على لغة الإشارة من الفيديو لتصنيف 64 إشارة من 551 فيديو، باستخدام معالجة الفيديو والتعلم العميق.</p>
-                        <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-translate="project2_title">🤟 SignSpeak - Sign Language Recognition</h3>
+                        <p data-translate="project2_desc">تطوير نظام للتعرف على لغة الإشارة من الفيديو لتصنيف 64 إشارة من 551 فيديو، باستخدام معالجة الفيديو والتعلم العميق.</p>
+                        <a href="#" class="project-link"><span data-translate="view_project">عرض المشروع</span> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -239,9 +254,9 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>📦 Logistics & Transportation Intelligence</h3>
-                        <p>حلول تحليلية شاملة للخدمات اللوجستية باستخدام Python وSQL، مع لوحة معلومات Power BI لمتابعة أداء التوصيل وكفاءة الأسطول.</p>
-                        <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-right"></i></a>
+                        <h3 data-translate="project3_title">📦 Logistics & Transportation Intelligence</h3>
+                        <p data-translate="project3_desc">حلول تحليلية شاملة للخدمات اللوجستية باستخدام Python وSQL، مع لوحة معلومات Power BI لمتابعة أداء التوصيل وكفاءة الأسطول.</p>
+                        <a href="#" class="project-link"><span data-translate="view_project">عرض المشروع</span> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -252,11 +267,11 @@
     <!-- ====== قسم المهارات (Skills) ====== -->
     <section id="skills" class="skills">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="section-title">⚡ المهارات</h2>
+            <h2 class="section-title" data-translate="skills_title">⚡ المهارات</h2>
             <div class="skills-grid">
                 
                 <div class="skills-category">
-                    <h3>التقنية</h3>
+                    <h3 data-translate="technical_skills">التقنية</h3>
                     <div class="skill-item">
                         <span>Python (Pandas, NumPy, Scikit-learn)</span>
                         <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
@@ -280,7 +295,7 @@
                 </div>
 
                 <div class="skills-category">
-                    <h3>المهارات الشخصية</h3>
+                    <h3 data-translate="soft_skills">المهارات الشخصية</h3>
                     <div class="skill-tags">
                         <span>Data Storytelling</span>
                         <span>Analytical Problem-Solving</span>
@@ -290,14 +305,14 @@
                         <span>EDA & Visualization</span>
                     </div>
                     <div class="languages">
-                        <h4>اللغات</h4>
+                        <h4 data-translate="languages">اللغات</h4>
                         <div class="language-item">
-                            <span>العربية</span>
-                            <span class="lang-level">Native</span>
+                            <span data-translate="arabic">العربية</span>
+                            <span class="lang-level" data-translate="native">Native</span>
                         </div>
                         <div class="language-item">
-                            <span>الإنجليزية</span>
-                            <span class="lang-level">Professional</span>
+                            <span data-translate="english">الإنجليزية</span>
+                            <span class="lang-level" data-translate="professional">Professional</span>
                         </div>
                     </div>
                 </div>
@@ -309,7 +324,7 @@
     <!-- ====== قسم الشهادات (Certificates) ====== -->
     <section id="certificates" class="certificates">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="section-title">🏆 الشهادات</h2>
+            <h2 class="section-title" data-translate="certificates_title">🏆 الشهادات</h2>
             <div class="cert-grid">
                 <div class="cert-card">
                     <i class="fas fa-certificate"></i>
@@ -348,37 +363,37 @@
     <!-- ====== قسم التواصل (Contact) ====== -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="section-title">📬 تواصل معي</h2>
+            <h2 class="section-title" data-translate="contact_title">📬 تواصل معي</h2>
             <div class="contact-grid">
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>الهاتف</h4>
+                            <h4 data-translate="phone">الهاتف</h4>
                             <p>+201018591878</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>البريد الإلكتروني</h4>
+                            <h4 data-translate="email">البريد الإلكتروني</h4>
                             <p>gemad2605@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>الموقع</h4>
+                            <h4 data-translate="location_label">الموقع</h4>
                             <p>Cairo, Egypt</p>
                         </div>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="الاسم" required />
-                    <input type="email" placeholder="البريد الإلكتروني" required />
-                    <input type="text" placeholder="الموضوع" />
-                    <textarea rows="5" placeholder="الرسالة" required></textarea>
-                    <button type="submit" class="btn primary">إرسال <i class="fas fa-paper-plane"></i></button>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="الاسم" data-translate-placeholder="name_placeholder" required />
+                    <input type="email" placeholder="البريد الإلكتروني" data-translate-placeholder="email_placeholder" required />
+                    <input type="text" placeholder="الموضوع" data-translate-placeholder="subject_placeholder" />
+                    <textarea rows="5" placeholder="الرسالة" data-translate-placeholder="message_placeholder" required></textarea>
+                    <button type="submit" class="btn primary"><span data-translate="send">إرسال</span> <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
         </div>
@@ -387,7 +402,7 @@
     <!-- ====== تذييل الصفحة ====== -->
     <footer class="footer">
         <div class="container">
-            <p>© 2025 Gannatallah Emad — جميع الحقوق محفوظة</p>
+            <p>© 2025 Gannatallah Emad — <span data-translate="copyright">جميع الحقوق محفوظة</span></p>
             <div class="footer-social">
                 <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
