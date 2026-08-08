@@ -6,20 +6,22 @@ AOS.init({
 });
 
 // ====== شريط التنقل ======
-const navToggle = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('.nav-menu');
+const navToggle = document.getElementById('navToggle');
+const navMenu = document.getElementById('navMenu');
 
 // فتح/غلق القائمة في الموبايل
-navToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});
-
-// إغلاق القائمة عند الضغط على رابط
-document.querySelectorAll('.nav-menu a').forEach(link => {
-    link.addEventListener('click', () => {
-        navMenu.classList.remove('active');
+if (navToggle && navMenu) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
     });
-});
+
+    // إغلاق القائمة عند الضغط على رابط
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    });
+}
 
 // ====== إخفاء/ظهور شريط التنقل عند التمرير ======
 let lastScroll = 0;
@@ -29,10 +31,8 @@ window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     
     if (currentScroll > lastScroll && currentScroll > 100) {
-        // التمرير لأسفل - إخفاء
         navbar.style.transform = 'translateY(-100%)';
     } else {
-        // التمرير لأعلى - إظهار
         navbar.style.transform = 'translateY(0)';
     }
     
@@ -55,56 +55,250 @@ const animateSkills = () => {
     });
 };
 
-// تشغيل عند التمرير
 window.addEventListener('scroll', animateSkills);
-// تشغيل عند تحميل الصفحة
 window.addEventListener('load', animateSkills);
 
-// ====== نموذج التواصل ======
-const contactForm = document.querySelector('.contact-form');
+// ====== DARK/LIGHT MODE ======
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = themeToggle ? themeToggle.querySelector('i') : null;
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // جمع البيانات
-    const name = contactForm.querySelector('input[type="text"]').value;
-    const email = contactForm.querySelector('input[type="email"]').value;
-    const subject = contactForm.querySelectorAll('input[type="text"]')[1]?.value || 'لا يوجد موضوع';
-    const message = contactForm.querySelector('textarea').value;
-    
-    // التحقق من الحقول المطلوبة
-    if (!name || !email || !message) {
-        showNotification('⚠️', 'من فضلك املأ جميع الحقول المطلوبة', 'error');
-        return;
+// التحقق من الوضع المخزن
+let currentTheme = localStorage.getItem('theme') || 'dark';
+applyTheme(currentTheme);
+
+if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+        const newTheme = document.body.classList.contains('light-mode') ? 'dark' : 'light';
+        applyTheme(newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
+}
+
+function applyTheme(theme) {
+    if (theme === 'light') {
+        document.body.classList.add('light-mode');
+        if (themeIcon) themeIcon.className = 'fas fa-sun';
+    } else {
+        document.body.classList.remove('light-mode');
+        if (themeIcon) themeIcon.className = 'fas fa-moon';
     }
-    
-    // التحقق من صحة البريد الإلكتروني
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        showNotification('⚠️', 'من فضلك أدخل بريد إلكتروني صحيح', 'error');
-        return;
+}
+
+// ====== TRANSLATION (عربي/إنجليزي) ======
+const langToggle = document.getElementById('langToggle');
+const langText = document.getElementById('langText');
+let currentLang = localStorage.getItem('lang') || 'ar';
+
+// بيانات الترجمة
+const translations = {
+    ar: {
+        home: 'الرئيسية',
+        about: 'عنّي',
+        experience: 'الخبرات',
+        projects: 'المشاريع',
+        skills: 'المهارات',
+        certificates: 'الشهادات',
+        contact: 'تواصل',
+        job_title: '📊 Data Analyst',
+        location: 'Cairo, Egypt',
+        bio: 'محللة بيانات موجهة نحو النتائج، حاصلة على بكالوريوس التجارة والمحاسبة، ماهرة في Python و SQL و Power BI و Excel المتقدم. شغوفة بتحويل البيانات الخام إلى رؤى قابلة للتنفيذ.',
+        view_cv: 'عرض السيرة',
+        download_cv: 'تحميل السيرة',
+        about_title: '✨ عنّي',
+        about_text1: 'أنا <strong>Gannatallah Emad</strong>، محللة بيانات بشغف كبير لتحويل البيانات الخام إلى رؤى قيمة تدعم اتخاذ القرارات. حاصلة على بكالوريوس التجارة - محاسبة ومراجعة من جامعة عين شمس بتقدير امتياز مع مرتبة الشرف (GPA: 3.75/4.0).',
+        about_text2: 'لدي خبرة في تحليل البيانات، التصور البياني، وتطوير لوحات المعلومات التفاعلية باستخدام <strong>Power BI</strong>، بالإضافة إلى مهارات قوية في <strong>Python</strong> و <strong>SQL</strong> لتنظيف وتحليل البيانات.',
+        projects_label: 'مشروع',
+        certificates_label: 'شهادات',
+        experience_title: '💼 الخبرات العملية',
+        exp1_title: 'Junior Data Analyst',
+        exp1_company: 'DIGILIANs - MCIT & Egyptian Military Academy',
+        exp1_date: '2024 - حتى الآن',
+        exp1_li1: 'أتمتة عمليات تنظيف وتحويل البيانات لـ 10+ مجموعات بيانات باستخدام Python',
+        exp1_li2: 'بناء لوحات معلومات تفاعلية بـ Power BI لتتبع 15+ مؤشر أداء',
+        exp1_li3: 'تطوير استعلامات SQL لاستخراج وتحليل البيانات',
+        exp2_title: 'Mint by EGBANK',
+        exp2_company: 'برنامج تدريب التكنولوجيا المالية',
+        exp2_date: 'أغسطس 2024 - سبتمبر 2024',
+        exp2_li1: 'المشاركة في ورش عمل حول الاستقلال المالي واستراتيجية البنوك الرقمية',
+        exp2_li2: 'تطبيق أطر تحليل البيانات لحل دراسات حالة متعددة المتغيرات',
+        exp3_title: 'CIB - Commercial International Bank',
+        exp3_company: 'تدريب صيفي',
+        exp3_date: 'يوليو 2024 - أغسطس 2024',
+        exp3_li1: 'أتمتة تقارير العمل اليومية باستخدام VBA Macros في Excel',
+        exp3_li2: 'تحليل بيانات العملاء لدعم تقارير تقييم المخاطر',
+        projects_title: '🚀 المشاريع',
+        project1_title: '🧠 Brain Tumor MRI Classification',
+        project1_desc: 'تطوير نموذج Deep Learning لتصنيف صور MRI إلى 4 فئات من الأورام باستخدام MobileNetV2 Transfer Learning، وحققنا دقة 93%.',
+        project2_title: '🤟 SignSpeak - Sign Language Recognition',
+        project2_desc: 'تطوير نظام للتعرف على لغة الإشارة من الفيديو لتصنيف 64 إشارة من 551 فيديو، باستخدام معالجة الفيديو والتعلم العميق.',
+        project3_title: '📦 Logistics & Transportation Intelligence',
+        project3_desc: 'حلول تحليلية شاملة للخدمات اللوجستية باستخدام Python وSQL، مع لوحة معلومات Power BI لمتابعة أداء التوصيل وكفاءة الأسطول.',
+        view_project: 'عرض المشروع',
+        skills_title: '⚡ المهارات',
+        technical_skills: 'التقنية',
+        soft_skills: 'المهارات الشخصية',
+        languages: 'اللغات',
+        arabic: 'العربية',
+        english: 'الإنجليزية',
+        native: 'Native',
+        professional: 'Professional',
+        certificates_title: '🏆 الشهادات',
+        contact_title: '📬 تواصل معي',
+        phone: 'الهاتف',
+        email: 'البريد الإلكتروني',
+        location_label: 'الموقع',
+        name_placeholder: 'الاسم',
+        email_placeholder: 'البريد الإلكتروني',
+        subject_placeholder: 'الموضوع',
+        message_placeholder: 'الرسالة',
+        send: 'إرسال',
+        copyright: 'جميع الحقوق محفوظة'
+    },
+    en: {
+        home: 'Home',
+        about: 'About',
+        experience: 'Experience',
+        projects: 'Projects',
+        skills: 'Skills',
+        certificates: 'Certificates',
+        contact: 'Contact',
+        job_title: '📊 Data Analyst',
+        location: 'Cairo, Egypt',
+        bio: 'Results-driven Data Analyst with a Bachelor\'s in Commerce and Accounting, skilled in Python, SQL, Power BI, and Advanced Excel. Passionate about transforming raw data into actionable insights.',
+        view_cv: 'View CV',
+        download_cv: 'Download CV',
+        about_title: '✨ About Me',
+        about_text1: 'I am <strong>Gannatallah Emad</strong>, a passionate Data Analyst dedicated to transforming raw data into valuable insights that support decision-making. Holds a Bachelor of Commerce - Accounting and Auditing from Ain Shams University with honors (GPA: 3.75/4.0).',
+        about_text2: 'I have experience in data analysis, visualization, and developing interactive dashboards using <strong>Power BI</strong>, along with strong skills in <strong>Python</strong> and <strong>SQL</strong> for data cleaning and analysis.',
+        projects_label: 'Projects',
+        certificates_label: 'Certificates',
+        experience_title: '💼 Professional Experience',
+        exp1_title: 'Junior Data Analyst',
+        exp1_company: 'DIGILIANs - MCIT & Egyptian Military Academy',
+        exp1_date: '2024 - Present',
+        exp1_li1: 'Automated data cleaning and transformation workflows for 10+ datasets using Python',
+        exp1_li2: 'Built interactive Power BI dashboards tracking 15+ KPIs',
+        exp1_li3: 'Developed SQL queries for data extraction, transformation, and analysis',
+        exp2_title: 'Mint by EGBANK',
+        exp2_company: 'Fintech Training Program',
+        exp2_date: 'Aug 2024 - Sep 2024',
+        exp2_li1: 'Participated in workshops on financial independence and digital banking strategy',
+        exp2_li2: 'Applied analytical frameworks to solve multi-variable business case studies',
+        exp3_title: 'CIB - Commercial International Bank',
+        exp3_company: 'Summer Internship',
+        exp3_date: 'Jul 2024 - Aug 2024',
+        exp3_li1: 'Automated daily reporting workflows using Advanced Excel VBA macros',
+        exp3_li2: 'Analyzed customer financial data to support risk assessment reports',
+        projects_title: '🚀 Projects',
+        project1_title: '🧠 Brain Tumor MRI Classification',
+        project1_desc: 'Developed a Deep Learning model to classify MRI scans into 4 tumor categories using MobileNetV2 Transfer Learning, achieving 93% accuracy.',
+        project2_title: '🤟 SignSpeak - Sign Language Recognition',
+        project2_desc: 'Developed a video-based sign language recognition system classifying 64 signs from 551 videos using video processing and deep learning.',
+        project3_title: '📦 Logistics & Transportation Intelligence',
+        project3_desc: 'End-to-end analytics solution using Python and SQL, with an interactive Power BI dashboard to monitor delivery SLAs and fleet efficiency.',
+        view_project: 'View Project',
+        skills_title: '⚡ Skills',
+        technical_skills: 'Technical',
+        soft_skills: 'Soft Skills',
+        languages: 'Languages',
+        arabic: 'Arabic',
+        english: 'English',
+        native: 'Native',
+        professional: 'Professional',
+        certificates_title: '🏆 Certificates',
+        contact_title: '📬 Contact Me',
+        phone: 'Phone',
+        email: 'Email',
+        location_label: 'Location',
+        name_placeholder: 'Name',
+        email_placeholder: 'Email',
+        subject_placeholder: 'Subject',
+        message_placeholder: 'Message',
+        send: 'Send',
+        copyright: 'All Rights Reserved'
     }
+};
+
+// تطبيق اللغة
+function applyLanguage(lang) {
+    const elements = document.querySelectorAll('[data-translate]');
+    elements.forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (translations[lang] && translations[lang][key]) {
+            el.innerHTML = translations[lang][key];
+        }
+    });
     
-    // عرض رسالة نجاح
-    showNotification(
-        '✅', 
-        'تم إرسال رسالتك بنجاح! سأتصل بك قريباً.', 
-        'success'
-    );
+    // التعامل مع placeholders
+    document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-translate-placeholder');
+        if (translations[lang] && translations[lang][key]) {
+            el.placeholder = translations[lang][key];
+        }
+    });
     
-    // إعادة تعيين النموذج
-    contactForm.reset();
-});
+    // تحديث اتجاه النص
+    if (lang === 'ar') {
+        document.documentElement.dir = 'rtl';
+        document.documentElement.lang = 'ar';
+        if (langText) langText.textContent = 'EN';
+    } else {
+        document.documentElement.dir = 'ltr';
+        document.documentElement.lang = 'en';
+        if (langText) langText.textContent = 'عربي';
+    }
+}
+
+// تبديل اللغة
+if (langToggle) {
+    langToggle.addEventListener('click', () => {
+        const newLang = currentLang === 'ar' ? 'en' : 'ar';
+        currentLang = newLang;
+        applyLanguage(newLang);
+        localStorage.setItem('lang', newLang);
+    });
+}
+
+// تطبيق اللغة المخزنة
+applyLanguage(currentLang);
+
+// ====== نموذج التواصل ======
+const contactForm = document.getElementById('contactForm');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const name = contactForm.querySelector('input[type="text"]')?.value || '';
+        const email = contactForm.querySelector('input[type="email"]')?.value || '';
+        const message = contactForm.querySelector('textarea')?.value || '';
+        
+        if (!name || !email || !message) {
+            showNotification('⚠️', currentLang === 'ar' ? 'من فضلك املأ جميع الحقول المطلوبة' : 'Please fill all required fields', 'error');
+            return;
+        }
+        
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            showNotification('⚠️', currentLang === 'ar' ? 'من فضلك أدخل بريد إلكتروني صحيح' : 'Please enter a valid email', 'error');
+            return;
+        }
+        
+        showNotification(
+            '✅', 
+            currentLang === 'ar' ? 'تم إرسال رسالتك بنجاح! سأتصل بك قريباً.' : 'Your message has been sent successfully! I will get back to you soon.',
+            'success'
+        );
+        
+        contactForm.reset();
+    });
+}
 
 // ====== دالة عرض الإشعارات ======
 function showNotification(icon, message, type) {
-    // حذف الإشعار القديم إذا وجد
     const oldNotification = document.querySelector('.notification');
-    if (oldNotification) {
-        oldNotification.remove();
-    }
+    if (oldNotification) oldNotification.remove();
     
-    // إنشاء عنصر الإشعار
     const notification = document.createElement('div');
     notification.className = `notification notification-${type}`;
     notification.innerHTML = `
@@ -113,10 +307,8 @@ function showNotification(icon, message, type) {
         <button class="notification-close">&times;</button>
     `;
     
-    // إضافة الإشعار للصفحة
     document.body.appendChild(notification);
     
-    // إضافة التنسيق للإشعار
     notification.style.cssText = `
         position: fixed;
         bottom: 30px;
@@ -137,35 +329,18 @@ function showNotification(icon, message, type) {
         border: 1px solid rgba(255, 255, 255, 0.1);
     `;
     
-    // إضافة أنيميشن
     const style = document.createElement('style');
     style.textContent = `
         @keyframes slideUp {
-            from {
-                transform: translateY(100px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
+            from { transform: translateY(100px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
         @keyframes slideDown {
-            from {
-                transform: translateY(0);
-                opacity: 1;
-            }
-            to {
-                transform: translateY(100px);
-                opacity: 0;
-            }
+            from { transform: translateY(0); opacity: 1; }
+            to { transform: translateY(100px); opacity: 0; }
         }
-        .notification-icon {
-            font-size: 1.5rem;
-        }
-        .notification-message {
-            flex: 1;
-        }
+        .notification-icon { font-size: 1.5rem; }
+        .notification-message { flex: 1; }
         .notification-close {
             background: none;
             border: none;
@@ -176,19 +351,15 @@ function showNotification(icon, message, type) {
             transition: 0.3s;
             padding: 0 5px;
         }
-        .notification-close:hover {
-            opacity: 1;
-        }
+        .notification-close:hover { opacity: 1; }
     `;
     document.head.appendChild(style);
     
-    // إغلاق الإشعار عند الضغط على ×
     notification.querySelector('.notification-close').addEventListener('click', () => {
         notification.style.animation = 'slideDown 0.5s ease';
         setTimeout(() => notification.remove(), 500);
     });
     
-    // إغلاق الإشعار تلقائياً بعد 5 ثواني
     setTimeout(() => {
         if (notification.parentNode) {
             notification.style.animation = 'slideDown 0.5s ease';
@@ -196,11 +367,6 @@ function showNotification(icon, message, type) {
         }
     }, 5000);
 }
-
-// ====== تأثير الكتابة التلقائية على النبذة ======
-// (اختياري - يمكن تفعيله إذا أردت)
-// const bioText = "Results-driven Data Analyst with a Bachelor's in Commerce and Accounting...";
-// يمكن إضافة تأثير كتابة هنا
 
 // ====== تأثير تغيير الخلفية عند التمرير ======
 const sections = document.querySelectorAll('section');
@@ -211,7 +377,6 @@ window.addEventListener('scroll', () => {
     
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
         if (window.pageYOffset >= sectionTop - 150) {
             current = section.getAttribute('id');
         }
@@ -239,7 +404,6 @@ document.head.appendChild(styleActive);
 
 // ====== تحسين الأداء: تحميل الصور البطيء ======
 document.addEventListener('DOMContentLoaded', () => {
-    // إضافة lazy loading للصور
     document.querySelectorAll('img').forEach(img => {
         if (!img.hasAttribute('loading')) {
             img.setAttribute('loading', 'lazy');
@@ -247,13 +411,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// ====== منع النقر بزر الماوس الأيمن (اختياري) ======
-// document.addEventListener('contextmenu', (e) => e.preventDefault());
-
 // ====== عرض رسالة ترحيب في console ======
 console.log('%c🎯 Gannatallah Emad Portfolio', 'font-size: 24px; font-weight: bold; color: #6c63ff;');
 console.log('%c📊 Data Analyst | Python • SQL • Power BI', 'font-size: 16px; color: #b0b0d0;');
 console.log('%c✨ شكراً لزيارتك!', 'font-size: 14px; color: #d4bfff;');
-
-// ====== إضافة تأثير المتابعة للماوس (اختياري) ======
-// يمكن إضافة cursor متحرك إذا أردت
