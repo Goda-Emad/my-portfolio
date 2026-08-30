@@ -8,18 +8,18 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
 <style>
-/* ===== TOKENS ===== */
+/* ===== TOKENS — BARBIE THEME ===== */
 :root {
-  --bg:        #09090f;
-  --surface:   #111120;
-  --surface2:  #17172a;
-  --border:    rgba(255,255,255,0.07);
-  --accent:    #7c6aff;
-  --accent2:   #b48cff;
-  --glow:      rgba(124,106,255,0.18);
-  --text:      #e8e6f0;
-  --muted:     #7e7a96;
-  --success:   #4ade80;
+  --bg:        #0f0009;
+  --surface:   #1a0011;
+  --surface2:  #220016;
+  --border:    rgba(255,20,147,0.12);
+  --accent:    #E0218A;
+  --accent2:   #ff69b4;
+  --glow:      rgba(224,33,138,0.22);
+  --text:      #f5e6f0;
+  --muted:     #b07898;
+  --success:   #ff85c8;
   --error:     #f87171;
 
   --font-ar:   'IBM Plex Sans Arabic', sans-serif;
@@ -32,13 +32,13 @@
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 .light-mode {
-  --bg:       #f4f3ff;
+  --bg:       #fff0f7;
   --surface:  #ffffff;
-  --surface2: #eeedf8;
-  --border:   rgba(0,0,0,0.08);
-  --glow:     rgba(124,106,255,0.10);
-  --text:     #18172b;
-  --muted:    #6b6887;
+  --surface2: #ffe4f2;
+  --border:   rgba(224,33,138,0.12);
+  --glow:     rgba(224,33,138,0.10);
+  --text:     #2b0018;
+  --muted:    #9e4a78;
 }
 
 /* ===== RESET ===== */
@@ -85,14 +85,14 @@ body::after{
 .navbar{
   position:fixed;top:0;left:0;right:0;
   height:var(--nav-h);
-  background:rgba(9,9,15,0.8);
+  background:rgba(15,0,9,0.85);
   backdrop-filter:blur(20px);
   -webkit-backdrop-filter:blur(20px);
   border-bottom:1px solid var(--border);
   z-index:1000;
   transition:transform var(--transition), background var(--transition);
 }
-.light-mode .navbar{background:rgba(244,243,255,0.85)}
+.light-mode .navbar{background:rgba(255,240,247,0.88)}
 .nav-container{
   max-width:1200px;margin:0 auto;
   height:100%;
@@ -167,7 +167,7 @@ body::after{
 .badge{
   display:inline-flex;align-items:center;gap:8px;
   padding:7px 16px;
-  border:1px solid var(--border);
+  border:1px solid rgba(224,33,138,0.3);
   border-radius:100px;
   font-size:0.78rem;font-weight:500;
   color:var(--muted);
@@ -191,19 +191,11 @@ body::after{
 .profile-ring{
   position:absolute;inset:-6px;
   border-radius:50%;
-  background:conic-gradient(var(--accent), var(--accent2), transparent, var(--accent));
+  background:conic-gradient(var(--accent), var(--accent2), #ffb6c1, var(--accent));
   z-index:1;
   animation:spin 6s linear infinite;
 }
 @keyframes spin{to{transform:rotate(360deg)}}
-.profile-ring-bg{
-  position:absolute;inset:-7px;
-  border-radius:50%;
-  background:var(--bg);
-  z-index:1;
-  inset:-1px;
-}
-/* fix: layering */
 .profile-wrap .profile-ring{z-index:1}
 .profile-wrap img{z-index:3;position:relative}
 
@@ -245,13 +237,13 @@ body::after{
   transition:all var(--transition);
 }
 .btn-primary{
-  background:var(--accent);
+  background:linear-gradient(135deg, var(--accent), #c71585);
   color:#fff;
   box-shadow:0 0 24px var(--glow);
 }
-.btn-primary:hover{background:var(--accent2);transform:translateY(-2px);box-shadow:0 0 36px var(--glow)}
+.btn-primary:hover{background:linear-gradient(135deg,var(--accent2),var(--accent));transform:translateY(-2px);box-shadow:0 0 36px var(--glow)}
 .btn-outline{
-  border:1px solid var(--border);
+  border:1px solid rgba(224,33,138,0.3);
   color:var(--muted);
   background:var(--surface);
 }
@@ -360,7 +352,7 @@ section{position:relative;z-index:1;padding:100px 24px}
   padding:24px 28px;
   transition:border-color var(--transition);
 }
-.tl-card:hover{border-color:rgba(124,106,255,0.4)}
+.tl-card:hover{border-color:rgba(224,33,138,0.4)}
 .tl-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:4px}
 .tl-title{font-size:1.05rem;font-weight:600}
 .tl-date{
@@ -395,13 +387,13 @@ section{position:relative;z-index:1;padding:100px 24px}
   overflow:hidden;
   transition:all var(--transition);
 }
-.proj-card:hover{border-color:rgba(124,106,255,0.4);transform:translateY(-4px);box-shadow:0 20px 48px rgba(0,0,0,0.3)}
+.proj-card:hover{border-color:rgba(224,33,138,0.4);transform:translateY(-4px);box-shadow:0 20px 48px rgba(224,33,138,0.15)}
 .proj-img{position:relative;height:180px;overflow:hidden}
 .proj-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s}
 .proj-card:hover .proj-img img{transform:scale(1.05)}
 .proj-tech-overlay{
   position:absolute;inset:0;
-  background:linear-gradient(to top,rgba(9,9,15,0.9) 0%,transparent 60%);
+  background:linear-gradient(to top,rgba(15,0,9,0.9) 0%,transparent 60%);
   display:flex;align-items:flex-end;
   padding:14px 16px;
 }
@@ -411,8 +403,8 @@ section{position:relative;z-index:1;padding:100px 24px}
   font-size:0.65rem;
   padding:3px 9px;
   border-radius:100px;
-  background:rgba(124,106,255,0.2);
-  border:1px solid rgba(124,106,255,0.4);
+  background:rgba(224,33,138,0.2);
+  border:1px solid rgba(224,33,138,0.4);
   color:var(--accent2);
 }
 .proj-body{padding:20px 22px 22px}
@@ -469,8 +461,8 @@ section{position:relative;z-index:1;padding:100px 24px}
   font-size:0.72rem;
   padding:3px 10px;
   border-radius:100px;
-  background:rgba(124,106,255,0.1);
-  border:1px solid rgba(124,106,255,0.3);
+  background:rgba(224,33,138,0.1);
+  border:1px solid rgba(224,33,138,0.3);
   color:var(--accent);
 }
 
@@ -488,11 +480,11 @@ section{position:relative;z-index:1;padding:100px 24px}
   border-radius:var(--r);
   transition:all var(--transition);
 }
-.cert-card:hover{border-color:rgba(124,106,255,0.4);background:var(--surface2)}
+.cert-card:hover{border-color:rgba(224,33,138,0.4);background:var(--surface2)}
 .cert-icon{
   width:36px;height:36px;flex-shrink:0;
   border-radius:9px;
-  background:rgba(124,106,255,0.12);
+  background:rgba(224,33,138,0.12);
   display:flex;align-items:center;justify-content:center;
   font-size:0.85rem;color:var(--accent);
 }
@@ -515,7 +507,7 @@ section{position:relative;z-index:1;padding:100px 24px}
 .ci-icon{
   width:38px;height:38px;flex-shrink:0;
   border-radius:10px;
-  background:rgba(124,106,255,0.12);
+  background:rgba(224,33,138,0.12);
   display:flex;align-items:center;justify-content:center;
   color:var(--accent);font-size:0.9rem;
 }
@@ -567,7 +559,7 @@ footer{
   max-width:380px;
   box-shadow:0 12px 40px rgba(0,0,0,0.4);
 }
-.toast.success{background:rgba(74,222,128,0.15);border-color:rgba(74,222,128,0.3);color:var(--success)}
+.toast.success{background:rgba(255,105,180,0.15);border-color:rgba(255,105,180,0.3);color:var(--success)}
 .toast.error{background:rgba(248,113,113,0.15);border-color:rgba(248,113,113,0.3);color:var(--error)}
 .toast-close{margin-inline-start:auto;opacity:0.6;font-size:1.1rem;transition:opacity 0.2s}
 .toast-close:hover{opacity:1}
@@ -604,7 +596,7 @@ footer{
 
 /* ===== LIGHT MODE ADJUSTMENTS ===== */
 .light-mode body::before{opacity:0.4}
-.light-mode .navbar{border-bottom-color:rgba(0,0,0,0.08)}
+.light-mode .navbar{border-bottom-color:rgba(224,33,138,0.12)}
 .light-mode .tl-dot{border-color:var(--bg)}
 </style>
 </head>
@@ -759,7 +751,6 @@ footer{
     <h2 class="section-title" data-translate="title_proj">المشاريع <span>.</span></h2>
     <div class="projects-grid">
 
-      <!-- Project 1: Brain Tumor MRI -->
       <div class="proj-card" data-aos="fade-up">
         <div class="proj-img">
           <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=700&q=80" alt="Brain Tumor MRI"/>
@@ -778,7 +769,6 @@ footer{
         </div>
       </div>
 
-      <!-- Project 2: SignSpeak -->
       <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
         <div class="proj-img">
           <img src="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?w=700&q=80" alt="Sign Language"/>
@@ -797,7 +787,6 @@ footer{
         </div>
       </div>
 
-      <!-- Project 3: ProcureMind-AI -->
       <div class="proj-card" data-aos="fade-up" data-aos-delay="200">
         <div class="proj-img">
           <img src="https://images.unsplash.com/photo-1664575602807-e002fc20892c?w=700&q=80" alt="ProcureMind AI"/>
@@ -817,7 +806,6 @@ footer{
         </div>
       </div>
 
-      <!-- Project 4: SmartRetriever -->
       <div class="proj-card" data-aos="fade-up" data-aos-delay="300">
         <div class="proj-img">
           <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=700&q=80" alt="SmartRetriever"/>
@@ -1012,7 +1000,6 @@ footer{
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-// ===== TRANSLATIONS =====
 const T = {
   ar: {
     nav_home:'الرئيسية', nav_about:'عنّي', nav_experience:'الخبرات',
@@ -1110,21 +1097,17 @@ const T = {
   }
 };
 
-// ===== STATE =====
 let lang = localStorage.getItem('ge-lang') || 'en';
 let theme = localStorage.getItem('ge-theme') || 'dark';
 
-// ===== AOS =====
 AOS.init({duration:900,once:true,offset:80});
 
-// ===== APPLY LANG =====
 function applyLang(l){
   lang = l;
   const t = T[l];
   document.documentElement.lang = l;
   document.documentElement.dir = l==='ar'?'rtl':'ltr';
   document.body.classList.toggle('lang-en', l==='en');
-
   document.querySelectorAll('[data-translate]').forEach(el=>{
     const k = el.dataset.translate;
     if(t[k] !== undefined) el.innerHTML = t[k];
@@ -1133,18 +1116,13 @@ function applyLang(l){
     const k = el.dataset.translatePlaceholder;
     if(t[k] !== undefined) el.placeholder = t[k];
   });
-
   document.getElementById('langLabel').textContent = t.lang_label;
-
-  // flip arrow direction on project links
   document.querySelectorAll('.proj-link i').forEach(i=>{
     i.className = l==='ar'?'fas fa-arrow-left':'fas fa-arrow-right';
   });
-
   localStorage.setItem('ge-lang', l);
 }
 
-// ===== APPLY THEME =====
 function applyTheme(th){
   theme = th;
   document.body.classList.toggle('light-mode', th==='light');
@@ -1152,15 +1130,12 @@ function applyTheme(th){
   localStorage.setItem('ge-theme', th);
 }
 
-// ===== NAV SCROLL HIDE =====
 let lastY = 0;
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll',()=>{
   const y = window.scrollY;
   navbar.style.transform = (y > lastY && y > 120) ? 'translateY(-100%)' : '';
   lastY = y;
-
-  // active link
   let cur='';
   document.querySelectorAll('section').forEach(s=>{
     if(window.scrollY >= s.offsetTop-140) cur = s.id;
@@ -1170,7 +1145,6 @@ window.addEventListener('scroll',()=>{
   });
 },{passive:true});
 
-// ===== HAMBURGER =====
 const ham = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
 ham.addEventListener('click',()=>{
@@ -1187,7 +1161,6 @@ navMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
   ham.children[2].style.transform='';
 }));
 
-// ===== SKILL BARS =====
 function animateBars(){
   document.querySelectorAll('.skill-fill').forEach(bar=>{
     const rect = bar.getBoundingClientRect();
@@ -1200,7 +1173,6 @@ function animateBars(){
 window.addEventListener('scroll', animateBars, {passive:true});
 window.addEventListener('load', animateBars);
 
-// ===== CONTACT FORM =====
 document.getElementById('contactForm').addEventListener('submit',e=>{
   e.preventDefault();
   const t = T[lang];
@@ -1213,7 +1185,6 @@ document.getElementById('contactForm').addEventListener('submit',e=>{
   e.target.reset();
 });
 
-// ===== TOAST =====
 function toast(msg, type){
   document.querySelector('.toast')?.remove();
   const d = document.createElement('div');
@@ -1228,7 +1199,6 @@ function removeToast(d){
   setTimeout(()=>d.remove(),400);
 }
 
-// ===== INIT =====
 document.getElementById('themeBtn').addEventListener('click',()=>applyTheme(theme==='dark'?'light':'dark'));
 document.getElementById('langBtn').addEventListener('click',()=>applyLang(lang==='ar'?'en':'ar'));
 applyTheme(theme);
