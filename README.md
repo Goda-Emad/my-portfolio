@@ -1,37 +1,37 @@
 <!-- ===================== HERO ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF1493,50:FF69B4,100:FFB6C1&height=220&section=header&text=Gannatallah%20Emad&fontSize=48&fontColor=fff&fontAlignY=38&desc=Data%20Analyst%20%7C%20Power%20BI%20Developer%20%7C%20ML%20Practitioner&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:B8860B&height=220&section=header&text=Manar%20Harby&fontSize=48&fontColor=FFD700&fontAlignY=38&desc=Junior%20Data%20Analyst%20%7C%20Power%20BI%20Developer%20%7C%20ML%20Practitioner&descAlignY=58&descSize=16&descFontColor=FFD700&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Gannatallah+Emad;Data+Analyst+%7C+Power+BI+Developer;Machine+Learning+%26+Deep+Learning+Practitioner;Turning+Data+Into+Decisions." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Manar+Harby;Junior+Data+Analyst+%7C+Power+BI+Developer;Machine+Learning+%26+Deep+Learning+Practitioner;Turning+Data+Into+Decisions." alt="Typing SVG" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Data%20Analyst-FF1493?style=for-the-badge&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Power%20BI%20Developer-FF69B4?style=for-the-badge&logo=powerbi&logoColor=white" />
-<img src="https://img.shields.io/badge/ML%20Practitioner-E91E8C?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Data%20Analyst-FFD700?style=for-the-badge&logo=databricks&logoColor=000000" />
+<img src="https://img.shields.io/badge/Power%20BI%20Developer-B8860B?style=for-the-badge&logo=powerbi&logoColor=000000" />
+<img src="https://img.shields.io/badge/ML%20Practitioner-FFD700?style=for-the-badge&logo=tensorflow&logoColor=000000" />
 
 <br/><br/>
 
-<a href="mailto:gemad2605@gmail.com"><img src="https://img.shields.io/badge/Email-FF1493?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/ganna-emad/"><img src="https://img.shields.io/badge/LinkedIn-FF69B4?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Gannaemad387"><img src="https://img.shields.io/badge/GitHub-E91E8C?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:manarharbyabdelmoneam@gmail.com"><img src="https://img.shields.io/badge/Email-FFD700?style=for-the-badge&logo=gmail&logoColor=000000" /></a>
+<a href="https://www.linkedin.com/in/manar-harby/"><img src="https://img.shields.io/badge/LinkedIn-B8860B?style=for-the-badge&logo=linkedin&logoColor=000000" /></a>
+<a href="https://github.com/manarharbyabdelmoneam-cmd"><img src="https://img.shields.io/badge/GitHub-FFD700?style=for-the-badge&logo=github&logoColor=000000" /></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Gannaemad387&color=FF1493&style=for-the-badge&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=manarharbyabdelmoneam-cmd&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS" />
 
 </div>
 
-<h3 align="center">💖 Transforming raw data into actionable insights across healthcare, logistics, finance, and AI</h3>
+<h3 align="center">✨ Transforming raw data into actionable insights across logistics, healthcare, finance, and AI</h3>
 
 ---
 
 <!-- ===================== PROFILE SNAPSHOT ===================== -->
 
-### 🌸 Profile Snapshot
+### 🏆 Profile Snapshot
 
 <table>
 <tr>
@@ -40,31 +40,31 @@
 </tr>
 <tr>
 <td>📊 <b>BI Stack</b></td>
-<td>Power BI · DAX · Power Query · Advanced Excel (VBA)</td>
+<td>Power BI · DAX · Power Query · Advanced Excel · SPSS</td>
 </tr>
 <tr>
 <td>🧠 <b>AI/ML</b></td>
-<td>Machine Learning · Deep Learning · Computer Vision · Transfer Learning</td>
+<td>Machine Learning · Deep Learning · Computer Vision · NLP · Transfer Learning</td>
 </tr>
 <tr>
 <td>🐍 <b>Programming</b></td>
-<td>Python (Pandas, NumPy, Scikit-learn, TensorFlow) · SQL</td>
+<td>Python (Pandas, NumPy, Scikit-learn, TensorFlow) · SQL (MS SQL Server)</td>
 </tr>
 <tr>
 <td>🚀 <b>Specialties</b></td>
-<td>EDA · ETL · KPI Dashboards · Predictive Analytics · Data Storytelling</td>
+<td>EDA · Statistical Analysis · KPI Dashboards · Predictive Modeling · Data Storytelling</td>
 </tr>
 <tr>
 <td>🎓 <b>Education</b></td>
-<td>B.Com Accounting &amp; Auditing — Ain Shams University · GPA: 3.75/4.0 · Excellent with Honors</td>
+<td>B.Com Accounting &amp; Auditing — Ain Shams University · Grade: Excellent</td>
 </tr>
 <tr>
 <td>📍 <b>Based in</b></td>
-<td>Cairo, Egypt</td>
+<td>Giza, Egypt</td>
 </tr>
 <tr>
 <td>🌐 <b>Languages</b></td>
-<td>Arabic (Native) · English (Professional)</td>
+<td>Arabic (Native) · English (Very Good)</td>
 </tr>
 </table>
 
@@ -74,11 +74,11 @@
 
 ### 👩‍💻 About Me
 
-I'm a **Results-driven Data Analyst** with a B.Com in Accounting & Auditing (Ain Shams University, GPA 3.75 — Excellent with Honors), currently working as a **Junior Data Analyst at DIGILIANS** in partnership with Egypt's Ministry of Communications & Information Technology and the Egyptian Military Academy.
+I'm a **Junior Data Analyst** with a B.Com in Accounting & Auditing (Ain Shams University — Excellent grade), currently working at **DIGILIANS** in partnership with Egypt's Ministry of Communications & Information Technology and the Egyptian Military Academy.
 
-My work spans **Business Intelligence, Machine Learning, and Deep Learning** — I build Power BI dashboards that track KPIs, automate data workflows with Python and SQL, and develop predictive & classification models across healthcare, logistics, and finance. With **15+ hands-on projects**, I focus on transforming raw data into decisions that matter.
+My background bridges **finance and data science** — I bring hands-on experience from logistics billing, general accounting, and hotel operations, combined with deep technical skills in Python, SQL, Power BI, and Machine Learning. With projects spanning **Arabic sign language recognition, brain tumor classification, warehouse analytics, and body performance prediction**, I focus on building solutions that answer real business questions.
 
-**Currently targeting:** Data Analyst, BI Developer, and ML roles where analytical depth meets real business impact.
+**Currently targeting:** Data Analyst, BI Developer, and ML roles where financial acumen meets analytical depth.
 
 ---
 
@@ -88,9 +88,9 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-| 🗂️ Projects | 🏅 Certifications | 💼 Experience | 📈 KPIs Tracked |
-|:-----------:|:-----------------:|:-------------:|:---------------:|
-| **15+** | **6+** | **2+ Years** | **15+** |
+| 🗂️ Projects | 🏅 Certifications | 💼 Years Experience | 🏢 Industries |
+|:-----------:|:-----------------:|:-------------------:|:-------------:|
+| **6+** | **7** | **3+** | **4+** |
 
 </div>
 
@@ -102,37 +102,38 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 **Analytics & BI**
 
-<img src="https://img.shields.io/badge/Power%20BI-FF1493?style=flat-square&logo=powerbi&logoColor=white" />
-<img src="https://img.shields.io/badge/DAX-FF69B4?style=flat-square" />
-<img src="https://img.shields.io/badge/Power%20Query-E91E8C?style=flat-square" />
-<img src="https://img.shields.io/badge/Advanced%20Excel%20VBA-FF1493?style=flat-square&logo=microsoftexcel&logoColor=white" />
-<img src="https://img.shields.io/badge/KPI%20Dashboards-FF69B4?style=flat-square" />
+<img src="https://img.shields.io/badge/Power%20BI-FFD700?style=flat-square&logo=powerbi&logoColor=000000" />
+<img src="https://img.shields.io/badge/DAX-B8860B?style=flat-square" />
+<img src="https://img.shields.io/badge/Power%20Query-FFD700?style=flat-square" />
+<img src="https://img.shields.io/badge/Advanced%20Excel-B8860B?style=flat-square&logo=microsoftexcel&logoColor=000000" />
+<img src="https://img.shields.io/badge/SPSS-FFD700?style=flat-square" />
+<img src="https://img.shields.io/badge/KPI%20Dashboards-B8860B?style=flat-square" />
 
 **Programming & Data Science**
 
-<img src="https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-E91E8C?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-FF69B4?style=flat-square&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--learn-FF1493?style=flat-square&logo=scikitlearn&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-E91E8C?style=flat-square&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-FFD700?style=flat-square&logo=python&logoColor=000000" />
+<img src="https://img.shields.io/badge/Pandas-B8860B?style=flat-square&logo=pandas&logoColor=000000" />
+<img src="https://img.shields.io/badge/NumPy-FFD700?style=flat-square&logo=numpy&logoColor=000000" />
+<img src="https://img.shields.io/badge/Scikit--learn-B8860B?style=flat-square&logo=scikitlearn&logoColor=000000" />
+<img src="https://img.shields.io/badge/SQL%20Server-FFD700?style=flat-square&logo=microsoftsqlserver&logoColor=000000" />
 
 **AI / Machine Learning**
 
-<img src="https://img.shields.io/badge/TensorFlow-FF1493?style=flat-square&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Deep%20Learning-FF69B4?style=flat-square" />
-<img src="https://img.shields.io/badge/Computer%20Vision-E91E8C?style=flat-square" />
-<img src="https://img.shields.io/badge/Transfer%20Learning-FF1493?style=flat-square" />
-<img src="https://img.shields.io/badge/OpenCV-FF69B4?style=flat-square&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Predictive%20Modeling-E91E8C?style=flat-square" />
+<img src="https://img.shields.io/badge/TensorFlow-FFD700?style=flat-square&logo=tensorflow&logoColor=000000" />
+<img src="https://img.shields.io/badge/Keras-B8860B?style=flat-square&logo=keras&logoColor=000000" />
+<img src="https://img.shields.io/badge/Deep%20Learning-FFD700?style=flat-square" />
+<img src="https://img.shields.io/badge/Computer%20Vision-B8860B?style=flat-square" />
+<img src="https://img.shields.io/badge/Transfer%20Learning-FFD700?style=flat-square" />
+<img src="https://img.shields.io/badge/MediaPipe-B8860B?style=flat-square" />
+<img src="https://img.shields.io/badge/OpenCV-FFD700?style=flat-square&logo=opencv&logoColor=000000" />
+<img src="https://img.shields.io/badge/XGBoost-B8860B?style=flat-square" />
 
-**Data Engineering & Tools**
+**Tools & Deployment**
 
-<img src="https://img.shields.io/badge/EDA-FF1493?style=flat-square" />
-<img src="https://img.shields.io/badge/ETL-FF69B4?style=flat-square" />
-<img src="https://img.shields.io/badge/Data%20Mining-E91E8C?style=flat-square" />
-<img src="https://img.shields.io/badge/Git-FF1493?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-E91E8C?style=flat-square&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Jupyter-FF69B4?style=flat-square&logo=jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-FFD700?style=flat-square&logo=git&logoColor=000000" />
+<img src="https://img.shields.io/badge/GitHub-B8860B?style=flat-square&logo=github&logoColor=000000" />
+<img src="https://img.shields.io/badge/Jupyter-FFD700?style=flat-square&logo=jupyter&logoColor=000000" />
+<img src="https://img.shields.io/badge/FastAPI-B8860B?style=flat-square&logo=fastapi&logoColor=000000" />
 
 ---
 
@@ -144,44 +145,70 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 <tr>
 <td width="50%" valign="top">
 
-#### 🧠 [NeuroScan AI](https://github.com/Gannaemad387/NeuroScan-AI)
-**Brain Tumor MRI Classification**
+#### 🤟 [SignSpeak AI](https://github.com/manarharbyabdelmoneam-cmd/SignSpeak)
+**Arabic Sign Language Recognition**
 
-- 🎯 **Problem:** Early and accurate brain tumor classification is critical for treatment planning.
-- 💡 **Solution:** Deep learning image classification using **MobileNetV2 Transfer Learning** — 4 tumor categories.
-- 🧠 **AI/ML:** Transfer Learning · Image Augmentation — **93% test accuracy**
-- 🛠️ **Tech:** `Python` `TensorFlow` `ResNet50` `MobileNetV2`
-- 📊 **Impact:** Automated MRI classification across 4 tumor classes
+- 🎯 **Problem:** Arabic-speaking deaf communities lack automated sign language interpretation tools.
+- 💡 **Solution:** AI-based Arabic Sign Language recognition using MediaPipe landmark extraction — 80-frame sequences with 153 features.
+- 🧠 **AI/ML:** GRU · BiGRU · BiLSTM · Cross-validation · F1-score evaluation
+- 🛠️ **Tech:** `Python` `MediaPipe` `TensorFlow/Keras` `GRU` `BiLSTM`
+- 📊 **Impact:** End-to-end Arabic sign language recognition pipeline
 
 </td>
 <td width="50%" valign="top">
 
-#### 🤟 SignSpeak
-**Video-Based Sign Language Recognition**
+#### 🧠 [NeuroScan AI](https://github.com/manarharbyabdelmoneam-cmd/NeuroScan-AI)
+**Brain Tumor MRI Classification**
 
-- 🎯 **Problem:** Deaf and hard-of-hearing communities need automated sign language interpretation.
-- 💡 **Solution:** Recognition pipeline classifying **64 sign classes** from 551 videos.
-- 🧠 **AI/ML:** Video preprocessing · Frame sampling/padding to 80 frames · Sequential deep learning
-- 🛠️ **Tech:** `Python` `OpenCV` `Deep Learning`
-- 📊 **Impact:** End-to-end pipeline for real-world sign language recognition
+- 🎯 **Problem:** Early and accurate brain tumor classification is critical for treatment planning.
+- 💡 **Solution:** Deep learning pipeline classifying brain MRI into 4 classes using ResNet50 & MobileNetV2 transfer learning.
+- 🧠 **AI/ML:** Transfer Learning · Data Augmentation · Model Fine-tuning — **92.56% test accuracy · 0.92 F1-score**
+- 🛠️ **Tech:** `Python` `TensorFlow` `ResNet50` `MobileNetV2` `OpenCV`
+- 📊 **Impact:** Automated MRI classification with clinical-grade evaluation metrics
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🚚 Logistics & Transportation Intelligence
-**Operational Analytics & BI Dashboard**
+#### 🏭 Warehouse Management & Logistics Dashboard
+**Operational Analytics & Power BI**
 
-- 🎯 **Problem:** Logistics teams need visibility into delivery performance and route efficiency.
-- 💡 **Solution:** End-to-end analytics with Python & SQL + interactive Power BI dashboard.
-- 🛠️ **Tech:** `Python` `SQL` `Power BI`
-- 📊 **Impact:** Monitors SLAs, fleet utilization & route efficiency across 10+ variables
+- 🎯 **Problem:** Warehouse operations lack visibility into stockouts, layout efficiency, and regional performance.
+- 💡 **Solution:** End-to-end Power BI dashboard across 30 warehouses — stockouts, layout efficiency & revenue tracking.
+- 🧠 **Key Insights:** 13K stockout units · 50.41% avg efficiency · $160M revenue · $33M profit
+- 🛠️ **Tech:** `Power BI` `Power Query` `DAX`
+- 📊 **Impact:** Identified top-performing regions and warehouses requiring layout optimization
 
 </td>
 <td width="50%" valign="top">
 
-#### 📄 [SmartRetriever](https://github.com/Gannaemad387/SmartRetriever)
+#### 💪 Body Performance Classification
+**ML Pipeline for Physical Performance Prediction**
+
+- 🎯 **Problem:** Physical performance classification needs automated, data-backed assessment.
+- 💡 **Solution:** End-to-end ML pipeline classifying performance into 4 grades (A/B/C/D) from 13.4K individuals.
+- 🧠 **AI/ML:** Random Forest · Gradient Boosting · XGBoost — **74.14% peak accuracy**
+- 🛠️ **Tech:** `Python` `Pandas` `NumPy` `Scikit-learn`
+- 📊 **Impact:** Identified age & body fat % as top predictive features
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ [EgyTera Volt AI](https://github.com/manarharbyabdelmoneam-cmd/EgyTera-Volt-AI)
+**AI-Powered Electricity Demand Forecasting**
+
+- 🎯 **Problem:** Egypt's electricity grid needs intelligent demand forecasting and decision support.
+- 💡 **Solution:** AI-powered forecasting and decision-support system using XGBoost, FastAPI, Gemini AI, and an interactive dashboard.
+- 🛠️ **Tech:** `Python` `XGBoost` `FastAPI` `Gemini AI` `JavaScript`
+- 📊 **Impact:** Historical analytics + real-time recommendations for grid management
+
+</td>
+<td width="50%" valign="top">
+
+#### 📄 [SmartRetriever](https://github.com/manarharbyabdelmoneam-cmd/SmartRetriever)
 **AI-Powered Procurement Document Intelligence**
 
 - 🎯 **Problem:** Procurement teams need fast answers across multiple documents.
@@ -189,29 +216,6 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 - 🧠 **AI/ML:** RAG · FAISS semantic search · LLMs
 - 🛠️ **Tech:** `Python` `FAISS` `Streamlit`
 - 🚀 **Deployment:** Interactive Streamlit app for source-grounded Q&A
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🤖 [ProcureMind AI](https://github.com/Gannaemad387/ProcureMind-AI)
-**AI-Powered Procurement Intelligence**
-
-- 🎯 **Problem:** Procurement decisions need intelligent automation and document understanding.
-- 💡 **Solution:** AI-powered procurement intelligence combining document analysis and decision support.
-- 🛠️ **Tech:** `Python` `AI Agents` `Streamlit`
-- 📊 **Impact:** Intelligent procurement workflow automation
-
-</td>
-<td width="50%" valign="top">
-
-#### 🌐 [My Portfolio](https://github.com/Gannaemad387/my-portfolio)
-**Personal Portfolio Website**
-
-- 💡 Showcases projects, skills, and professional experience in an interactive web format.
-- 🛠️ **Tech:** `HTML` `CSS` `JavaScript`
-- 🚀 Live portfolio for professional visibility
 
 </td>
 </tr>
@@ -224,16 +228,20 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 ### 💼 Experience
 
 **📊 Junior Data Analyst** — DIGILIANS × MCIT × Egyptian Military Academy
-📍 Cairo, Egypt · 🗓️ 2024 – Present
-> Automated data cleaning & transformation for 10+ datasets using Python. Built Power BI dashboards tracking 15+ KPIs. Developed SQL queries for data extraction and cross-functional reporting.
+📍 Cairo, Egypt · 🗓️ Dec 2025 – Present
+> Developed advanced data models and statistical analysis using Python & SQL. Applied ML algorithms and Data Mining to identify patterns in large datasets. Automated data processing with AI tools, improving accuracy and reducing manual workload.
 
-**🏦 Data & Operations Intern** — CIB (Commercial International Bank)
-📍 Cairo, Egypt · 🗓️ Jul 2024 – Aug 2024
-> Automated daily reporting with Advanced Excel VBA macros. Analyzed customer financial data for risk assessment and identified key banking risk indicators.
+**🚢 Billing Executive** — Hellmann Worldwide Logistics
+📍 Cairo, Egypt · 🗓️ Sep 2024 – Aug 2025
+> Managed sea freight import billing with 100% invoicing accuracy. Coordinated with international suppliers and customs authorities. Verified shipping documentation against billing data to eliminate discrepancies.
 
-**💳 Fintech & Data Workshop** — Mint by EGBANK
-📍 Cairo, Egypt · 🗓️ Aug 2024 – Sep 2024
-> Applied analytical problem-solving frameworks to multi-variable financial business case studies in a digital banking environment.
+**📒 General Accountant** — Egypt Luxury Company
+📍 Cairo, Egypt · 🗓️ Oct 2023 – Sep 2024
+> Maintained detailed financial records and reporting. Monitored customer and supplier accounts for cash flow management. Managed treasury accounts and prepared daily financial entries.
+
+**🏨 F&B Administrator** — Pyramids Park Resort
+📍 Cairo, Egypt · 🗓️ Oct 2022 – Oct 2023
+> Facilitated cross-departmental communication and operational synergy. Managed executive calendar, high-level meetings, and official documentation.
 
 ---
 
@@ -241,12 +249,13 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 ### 🏅 Certifications
 
-<img src="https://img.shields.io/badge/Microsoft%20Certified-Power%20BI%20Data%20Analyst%20Associate%20(PL--300)-FF1493?style=for-the-badge&logo=microsoft&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/Google-Data%20Analytics%20Professional%20Certificate-FF69B4?style=for-the-badge&logo=google&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/SAS-Data%20Literacy%20Essentials%20%26%20in%20Practice-E91E8C?style=for-the-badge" /><br/>
-<img src="https://img.shields.io/badge/CIB%20Egypt-Human--Centric%20Interpersonal%20Skills-FF1493?style=for-the-badge" /><br/>
-<img src="https://img.shields.io/badge/CIB%20Egypt-Financial%20Literacy%20%26%20Entrepreneurial%20Skills-FF69B4?style=for-the-badge" /><br/>
-<img src="https://img.shields.io/badge/iCareer-Mint%20Ambassador-E91E8C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Microsoft%20Certified-Power%20BI%20Data%20Analyst%20Associate%20(PL--300)-FFD700?style=for-the-badge&logo=microsoft&logoColor=000000" /><br/>
+<img src="https://img.shields.io/badge/Google-Data%20Analytics%20Professional%20Certificate-B8860B?style=for-the-badge&logo=google&logoColor=000000" /><br/>
+<img src="https://img.shields.io/badge/IBM-Delivering%20Quality%20Work%20with%20Agility-FFD700?style=for-the-badge&logo=ibm&logoColor=000000" /><br/>
+<img src="https://img.shields.io/badge/ITI-Python%20Programming%20Basics-B8860B?style=for-the-badge" /><br/>
+<img src="https://img.shields.io/badge/ITI-Database%20Fundamentals-FFD700?style=for-the-badge" /><br/>
+<img src="https://img.shields.io/badge/Cisco-Introduction%20to%20Modern%20AI-B8860B?style=for-the-badge&logo=cisco&logoColor=000000" /><br/>
+<img src="https://img.shields.io/badge/IMP-Data%20Analysis%20Specialization-FFD700?style=for-the-badge" />
 
 ---
 
@@ -256,8 +265,8 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 **🎓 Bachelor of Commerce — Accounting & Auditing**
 📍 Ain Shams University · Cairo, Egypt
-🗓️ Graduation: 2025
-> Grade: **Excellent with Honors** · GPA: **3.75 / 4.0**
+🗓️ Graduation: 2022
+> Grade: **Excellent**
 
 ---
 
@@ -267,16 +276,16 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gannaemad387&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=FF1493&icon_color=FF69B4&text_color=c9d1d9" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gannaemad387&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF1493&text_color=c9d1d9" width="35%" />
+<img src="https://github-readme-stats.vercel.app/api?username=manarharbyabdelmoneam-cmd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=FFD700&icon_color=B8860B&text_color=FFD700" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manarharbyabdelmoneam-cmd&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=B8860B" width="35%" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gannaemad387&theme=tokyonight&hide_border=true&background=0d1117&stroke=FF1493&ring=FF69B4&fire=E91E8C&currStreakLabel=FF1493" width="60%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=manarharbyabdelmoneam-cmd&theme=tokyonight&hide_border=true&background=0d1117&stroke=FFD700&ring=B8860B&fire=FFD700&currStreakLabel=FFD700" width="60%" />
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Gannaemad387&theme=tokyonight&no-frame=true&column=6&margin-w=10" width="90%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=manarharbyabdelmoneam-cmd&theme=tokyonight&no-frame=true&column=6&margin-w=10" width="90%"/>
 
 </div>
 
@@ -284,11 +293,11 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <!-- ===================== ACTIVITY GRAPH ===================== -->
 
-### 🌸 Contribution Activity
+### ✨ Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gannaemad387&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=FF1493&line=FF69B4&point=E91E8C" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=manarharbyabdelmoneam-cmd&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=FFD700&line=B8860B&point=FFD700" width="100%"/>
 
 </div>
 
@@ -300,9 +309,9 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-<a href="mailto:gemad2605@gmail.com"><img src="https://img.shields.io/badge/Email-FF1493?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/ganna-emad/"><img src="https://img.shields.io/badge/LinkedIn-FF69B4?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Gannaemad387"><img src="https://img.shields.io/badge/GitHub-E91E8C?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:manarharbyabdelmoneam@gmail.com"><img src="https://img.shields.io/badge/Email-FFD700?style=for-the-badge&logo=gmail&logoColor=000000" /></a>
+<a href="https://www.linkedin.com/in/manar-harby/"><img src="https://img.shields.io/badge/LinkedIn-B8860B?style=for-the-badge&logo=linkedin&logoColor=000000" /></a>
+<a href="https://github.com/manarharbyabdelmoneam-cmd"><img src="https://img.shields.io/badge/GitHub-FFD700?style=for-the-badge&logo=github&logoColor=000000" /></a>
 
 </div>
 
@@ -310,10 +319,10 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-### *"I don't just analyze data — I turn numbers into narratives that drive real business decisions." 💖*
+### *"I don't just analyze data — I turn numbers into narratives that drive real business decisions." ✨*
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB6C1,50:FF69B4,100:FF1493&height=140&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B8860B,50:1a1a1a,100:000000&height=140&section=footer&fontColor=FFD700&animation=fadeIn" width="100%"/>
 
 </div>
