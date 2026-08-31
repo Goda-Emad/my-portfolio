@@ -1,37 +1,37 @@
 <!-- ===================== HERO ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:DB2777,50:9333EA,100:06B6D4&height=220&section=header&text=Gannatallah%20Emad&fontSize=48&fontColor=fff&fontAlignY=38&desc=Data%20Analyst%20%7C%20Power%20BI%20Developer%20%7C%20ML%20Practitioner&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF1493,50:FF69B4,100:FFB6C1&height=220&section=header&text=Gannatallah%20Emad&fontSize=48&fontColor=fff&fontAlignY=38&desc=Data%20Analyst%20%7C%20Power%20BI%20Developer%20%7C%20ML%20Practitioner&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=DB2777&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Gannatallah+Emad;Data+Analyst+%7C+Power+BI+Developer;Machine+Learning+%26+Deep+Learning+Practitioner;Turning+Data+Into+Decisions." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Gannatallah+Emad;Data+Analyst+%7C+Power+BI+Developer;Machine+Learning+%26+Deep+Learning+Practitioner;Turning+Data+Into+Decisions." alt="Typing SVG" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Data%20Analyst-DB2777?style=for-the-badge&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Power%20BI%20Developer-9333EA?style=for-the-badge&logo=powerbi&logoColor=white" />
-<img src="https://img.shields.io/badge/ML%20Practitioner-06B6D4?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Data%20Analyst-FF1493?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Power%20BI%20Developer-FF69B4?style=for-the-badge&logo=powerbi&logoColor=white" />
+<img src="https://img.shields.io/badge/ML%20Practitioner-E91E8C?style=for-the-badge&logo=tensorflow&logoColor=white" />
 
 <br/><br/>
 
-<a href="mailto:gemad2605@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/ganna-emad/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Gannaemad387"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:gemad2605@gmail.com"><img src="https://img.shields.io/badge/Email-FF1493?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/ganna-emad/"><img src="https://img.shields.io/badge/LinkedIn-FF69B4?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/Gannaemad387"><img src="https://img.shields.io/badge/GitHub-E91E8C?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Gannaemad387&color=DB2777&style=for-the-badge&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=Gannaemad387&color=FF1493&style=for-the-badge&label=PROFILE+VIEWS" />
 
 </div>
 
-<h3 align="center">💡 Transforming raw data into actionable insights across healthcare, logistics, finance, and AI</h3>
+<h3 align="center">💖 Transforming raw data into actionable insights across healthcare, logistics, finance, and AI</h3>
 
 ---
 
 <!-- ===================== PROFILE SNAPSHOT ===================== -->
 
-### 📌 Profile Snapshot
+### 🌸 Profile Snapshot
 
 <table>
 <tr>
@@ -72,7 +72,7 @@
 
 <!-- ===================== ABOUT ===================== -->
 
-### 👤 About Me
+### 👩‍💻 About Me
 
 I'm a **Results-driven Data Analyst** with a B.Com in Accounting & Auditing (Ain Shams University, GPA 3.75 — Excellent with Honors), currently working as a **Junior Data Analyst at DIGILIANS** in partnership with Egypt's Ministry of Communications & Information Technology and the Egyptian Military Academy.
 
@@ -102,37 +102,37 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 **Analytics & BI**
 
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/DAX-DB2777?style=flat-square" />
-<img src="https://img.shields.io/badge/Power%20Query-9333EA?style=flat-square" />
-<img src="https://img.shields.io/badge/Advanced%20Excel%20(VBA)-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
-<img src="https://img.shields.io/badge/KPI%20Dashboards-06B6D4?style=flat-square" />
+<img src="https://img.shields.io/badge/Power%20BI-FF1493?style=flat-square&logo=powerbi&logoColor=white" />
+<img src="https://img.shields.io/badge/DAX-FF69B4?style=flat-square" />
+<img src="https://img.shields.io/badge/Power%20Query-E91E8C?style=flat-square" />
+<img src="https://img.shields.io/badge/Advanced%20Excel%20VBA-FF1493?style=flat-square&logo=microsoftexcel&logoColor=white" />
+<img src="https://img.shields.io/badge/KPI%20Dashboards-FF69B4?style=flat-square" />
 
 **Programming & Data Science**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-E91E8C?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-FF69B4?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--learn-FF1493?style=flat-square&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-E91E8C?style=flat-square&logo=mysql&logoColor=white" />
 
 **AI / Machine Learning**
 
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Deep%20Learning-9333EA?style=flat-square" />
-<img src="https://img.shields.io/badge/Computer%20Vision-06B6D4?style=flat-square" />
-<img src="https://img.shields.io/badge/Transfer%20Learning-DB2777?style=flat-square" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Predictive%20Modeling-DB2777?style=flat-square" />
+<img src="https://img.shields.io/badge/TensorFlow-FF1493?style=flat-square&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Deep%20Learning-FF69B4?style=flat-square" />
+<img src="https://img.shields.io/badge/Computer%20Vision-E91E8C?style=flat-square" />
+<img src="https://img.shields.io/badge/Transfer%20Learning-FF1493?style=flat-square" />
+<img src="https://img.shields.io/badge/OpenCV-FF69B4?style=flat-square&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/Predictive%20Modeling-E91E8C?style=flat-square" />
 
 **Data Engineering & Tools**
 
-<img src="https://img.shields.io/badge/EDA-06B6D4?style=flat-square" />
-<img src="https://img.shields.io/badge/ETL-9333EA?style=flat-square" />
-<img src="https://img.shields.io/badge/Data%20Mining-DB2777?style=flat-square" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/EDA-FF1493?style=flat-square" />
+<img src="https://img.shields.io/badge/ETL-FF69B4?style=flat-square" />
+<img src="https://img.shields.io/badge/Data%20Mining-E91E8C?style=flat-square" />
+<img src="https://img.shields.io/badge/Git-FF1493?style=flat-square&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-E91E8C?style=flat-square&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-FF69B4?style=flat-square&logo=jupyter&logoColor=white" />
 
 ---
 
@@ -148,19 +148,19 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 **Brain Tumor MRI Classification**
 
 - 🎯 **Problem:** Early and accurate brain tumor classification is critical for treatment planning.
-- 💡 **Solution:** Deep learning image classification model using **MobileNetV2 Transfer Learning** to classify MRI scans into 4 tumor categories.
-- 🧠 **AI/ML:** Transfer Learning · Image Augmentation · Model Evaluation — **93% test accuracy**
+- 💡 **Solution:** Deep learning image classification using **MobileNetV2 Transfer Learning** — 4 tumor categories.
+- 🧠 **AI/ML:** Transfer Learning · Image Augmentation — **93% test accuracy**
 - 🛠️ **Tech:** `Python` `TensorFlow` `ResNet50` `MobileNetV2`
-- 📊 **Impact:** Automated MRI classification pipeline across 4 tumor classes
+- 📊 **Impact:** Automated MRI classification across 4 tumor classes
 
 </td>
 <td width="50%" valign="top">
 
-#### 🤟 [SignSpeak](https://github.com/Gannaemad387/SignSpeak)
+#### 🤟 SignSpeak
 **Video-Based Sign Language Recognition**
 
-- 🎯 **Problem:** Deaf and hard-of-hearing communities need automated sign language interpretation tools.
-- 💡 **Solution:** Video-based sign language recognition pipeline classifying **64 sign classes** from 551 videos.
+- 🎯 **Problem:** Deaf and hard-of-hearing communities need automated sign language interpretation.
+- 💡 **Solution:** Recognition pipeline classifying **64 sign classes** from 551 videos.
 - 🧠 **AI/ML:** Video preprocessing · Frame sampling/padding to 80 frames · Sequential deep learning
 - 🛠️ **Tech:** `Python` `OpenCV` `Deep Learning`
 - 📊 **Impact:** End-to-end pipeline for real-world sign language recognition
@@ -170,13 +170,13 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 <tr>
 <td width="50%" valign="top">
 
-#### 🚚 [Logistics & Transportation Intelligence](https://github.com/Gannaemad387)
+#### 🚚 Logistics & Transportation Intelligence
 **Operational Analytics & BI Dashboard**
 
-- 🎯 **Problem:** Logistics teams need visibility into delivery performance, fleet utilization, and route efficiency.
-- 💡 **Solution:** End-to-end analytics solution with Python & SQL for data cleaning, transformation, and EDA — plus an interactive Power BI dashboard.
+- 🎯 **Problem:** Logistics teams need visibility into delivery performance and route efficiency.
+- 💡 **Solution:** End-to-end analytics with Python & SQL + interactive Power BI dashboard.
 - 🛠️ **Tech:** `Python` `SQL` `Power BI`
-- 📊 **Impact:** Monitors delivery SLAs, fleet utilization, and route efficiency across 10+ route variables
+- 📊 **Impact:** Monitors SLAs, fleet utilization & route efficiency across 10+ variables
 
 </td>
 <td width="50%" valign="top">
@@ -184,8 +184,8 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 #### 📄 [SmartRetriever](https://github.com/Gannaemad387/SmartRetriever)
 **AI-Powered Procurement Document Intelligence**
 
-- 🎯 **Problem:** Procurement teams need fast, accurate answers buried across multiple documents.
-- 💡 **Solution:** RAG-based system with modular retrieval, chunking, reranking, and Q&A pipelines for multi-document analysis.
+- 🎯 **Problem:** Procurement teams need fast answers across multiple documents.
+- 💡 **Solution:** RAG-based system with retrieval, chunking, reranking & Q&A pipelines.
 - 🧠 **AI/ML:** RAG · FAISS semantic search · LLMs
 - 🛠️ **Tech:** `Python` `FAISS` `Streamlit`
 - 🚀 **Deployment:** Interactive Streamlit app for source-grounded Q&A
@@ -199,7 +199,7 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 **AI-Powered Procurement Intelligence**
 
 - 🎯 **Problem:** Procurement decisions need intelligent automation and document understanding.
-- 💡 **Solution:** AI-powered procurement intelligence platform combining document analysis and automated decision support.
+- 💡 **Solution:** AI-powered procurement intelligence combining document analysis and decision support.
 - 🛠️ **Tech:** `Python` `AI Agents` `Streamlit`
 - 📊 **Impact:** Intelligent procurement workflow automation
 
@@ -225,11 +225,11 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 **📊 Junior Data Analyst** — DIGILIANS × MCIT × Egyptian Military Academy
 📍 Cairo, Egypt · 🗓️ 2024 – Present
-> Automated data cleaning & transformation workflows for 10+ datasets using Python (Pandas, NumPy). Built interactive Power BI dashboards tracking 15+ KPIs. Developed SQL queries for data extraction, transformation, and cross-functional reporting.
+> Automated data cleaning & transformation for 10+ datasets using Python. Built Power BI dashboards tracking 15+ KPIs. Developed SQL queries for data extraction and cross-functional reporting.
 
 **🏦 Data & Operations Intern** — CIB (Commercial International Bank)
 📍 Cairo, Egypt · 🗓️ Jul 2024 – Aug 2024
-> Automated daily reporting with Advanced Excel VBA macros. Analyzed customer financial data for risk assessment reports and identified key banking risk indicators.
+> Automated daily reporting with Advanced Excel VBA macros. Analyzed customer financial data for risk assessment and identified key banking risk indicators.
 
 **💳 Fintech & Data Workshop** — Mint by EGBANK
 📍 Cairo, Egypt · 🗓️ Aug 2024 – Sep 2024
@@ -241,12 +241,12 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 ### 🏅 Certifications
 
-<img src="https://img.shields.io/badge/Microsoft%20Certified-Power%20BI%20Data%20Analyst%20Associate%20(PL--300)-DB2777?style=for-the-badge&logo=microsoft&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/Google-Data%20Analytics%20Professional%20Certificate-06B6D4?style=for-the-badge&logo=google&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/SAS-Data%20Literacy%20Essentials%20%26%20in%20Practice-9333EA?style=for-the-badge" /><br/>
-<img src="https://img.shields.io/badge/CIB%20Egypt-Human--Centric%20Interpersonal%20Skills-334155?style=for-the-badge" /><br/>
-<img src="https://img.shields.io/badge/CIB%20Egypt-Financial%20Literacy%20%26%20Entrepreneurial%20Skills-334155?style=for-the-badge" /><br/>
-<img src="https://img.shields.io/badge/iCareer-Mint%20Ambassador-DB2777?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Microsoft%20Certified-Power%20BI%20Data%20Analyst%20Associate%20(PL--300)-FF1493?style=for-the-badge&logo=microsoft&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Google-Data%20Analytics%20Professional%20Certificate-FF69B4?style=for-the-badge&logo=google&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/SAS-Data%20Literacy%20Essentials%20%26%20in%20Practice-E91E8C?style=for-the-badge" /><br/>
+<img src="https://img.shields.io/badge/CIB%20Egypt-Human--Centric%20Interpersonal%20Skills-FF1493?style=for-the-badge" /><br/>
+<img src="https://img.shields.io/badge/CIB%20Egypt-Financial%20Literacy%20%26%20Entrepreneurial%20Skills-FF69B4?style=for-the-badge" /><br/>
+<img src="https://img.shields.io/badge/iCareer-Mint%20Ambassador-E91E8C?style=for-the-badge" />
 
 ---
 
@@ -267,12 +267,12 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gannaemad387&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=DB2777&icon_color=9333EA&text_color=c9d1d9" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gannaemad387&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=DB2777&text_color=c9d1d9" width="35%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Gannaemad387&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=FF1493&icon_color=FF69B4&text_color=c9d1d9" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gannaemad387&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF1493&text_color=c9d1d9" width="35%" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gannaemad387&theme=tokyonight&hide_border=true&background=0d1117&stroke=DB2777&ring=9333EA&fire=06B6D4&currStreakLabel=DB2777" width="60%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gannaemad387&theme=tokyonight&hide_border=true&background=0d1117&stroke=FF1493&ring=FF69B4&fire=E91E8C&currStreakLabel=FF1493" width="60%" />
 
 <br/>
 
@@ -284,11 +284,11 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <!-- ===================== ACTIVITY GRAPH ===================== -->
 
-### 🌊 Contribution Activity
+### 🌸 Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gannaemad387&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=DB2777&line=9333EA&point=06B6D4" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gannaemad387&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=FF1493&line=FF69B4&point=E91E8C" width="100%"/>
 
 </div>
 
@@ -300,9 +300,9 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-<a href="mailto:gemad2605@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/ganna-emad/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Gannaemad387"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="mailto:gemad2605@gmail.com"><img src="https://img.shields.io/badge/Email-FF1493?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/ganna-emad/"><img src="https://img.shields.io/badge/LinkedIn-FF69B4?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/Gannaemad387"><img src="https://img.shields.io/badge/GitHub-E91E8C?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
@@ -310,10 +310,10 @@ My work spans **Business Intelligence, Machine Learning, and Deep Learning** —
 
 <div align="center">
 
-### *"I don't just analyze data — I turn numbers into narratives that drive real business decisions."*
+### *"I don't just analyze data — I turn numbers into narratives that drive real business decisions." 💖*
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:9333EA,100:DB2777&height=140&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB6C1,50:FF69B4,100:FF1493&height=140&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
